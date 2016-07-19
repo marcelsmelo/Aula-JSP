@@ -1,0 +1,13 @@
+127.0.0.1 - - [11/May/2016:14:09:19 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [11/May/2016:14:09:20 -0300] "GET /JSPHelloWorld/helloWorld.jsp HTTP/1.1" 500 2506
+127.0.0.1 - - [11/May/2016:14:09:57 -0300] "GET /JSPHelloWorld/helloWorld.jsp HTTP/1.1" 500 2504
+127.0.0.1 - - [11/May/2016:14:11:34 -0300] "GET /JSPHelloWorld/helloWorld.jsp HTTP/1.1" 200 179
+127.0.0.1 - - [11/May/2016:18:18:47 -0300] "GET /JSPHelloWorld/serverTime.jsp HTTP/1.1" 200 214
+127.0.0.1 - - [11/May/2016:21:05:10 -0300] "GET /JSPHelloWorld/declaracao.jsp HTTP/1.1" 200 197
+127.0.0.1 - - [11/May/2016:21:22:33 -0300] "GET /JSPHelloWorld/Include.jsp HTTP/1.1" 500 2561
+127.0.0.1 - - [11/May/2016:21:23:16 -0300] "GET /JSPHelloWorld/Include.jsp HTTP/1.1" 200 267
+127.0.0.1 - - [11/May/2016:21:35:44 -0300] "GET /JSPHelloWorld/include-forward.jsp HTTP/1.1" 200 285
+127.0.0.1 - - [11/May/2016:21:36:24 -0300] "GET /JSPHelloWorld/include-forward.jsp HTTP/1.1" 200 362
+127.0.0.1 - - [11/May/2016:21:36:41 -0300] "GET /JSPHelloWorld/include-forward.jsp HTTP/1.1" 200 379
+127.0.0.1 - - [11/May/2016:21:39:08 -0300] "GET /JSPHelloWorld/headerInclude.jsp HTTP/1.1" 200 283
+127.0.0.1 - - [11/May/2016:21:39:24 -0300] "GET /JSPHelloWorld/include-forward.jsp HTTP/1.1" 200 380

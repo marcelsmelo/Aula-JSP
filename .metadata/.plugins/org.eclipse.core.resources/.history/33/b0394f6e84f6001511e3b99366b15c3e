@@ -1,0 +1,37 @@
+package br.marcel.melo;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class LoginOKReescritaServlet
+ */
+@WebServlet("/LoginOKReescritaServlet")
+public class LoginOKReescritaServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		out.println("<html>");
+		out.println("<head>");
+		out.println("<title> Login OK - Reescrita URL</title>");
+		out.println("</head>");
+		out.println("<body>");
+		out.println("<h1> Login Deu tudo bão</h1>");
+		out.println("<h2> User - "+nome+"</h1>");
+		out.println("<h2> PASS - "+senha+"</h1> <br><br>");
+		out.println("<a href=Servlet3ReescritaURL?nome="+nome+"&senha="+senha+">Servlet 3</a>" );
+		out.println("<a href=Servlet4ReescritaURL?nome="+nome+"&senha="+senha+">Servlet 4</a>");
+		out.println("</body>");
+		out.println("</html>");
+	}
+
+
+}

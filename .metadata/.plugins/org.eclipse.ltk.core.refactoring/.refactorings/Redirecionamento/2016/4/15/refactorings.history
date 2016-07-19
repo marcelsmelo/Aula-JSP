@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SegundoServlet.java&apos; to &apos;AulaAqui/src/(default package)&apos;&#x0A;- Original project: &apos;Redirecionamento&apos;&#x0A;- Destination element: &apos;AulaAqui/src/(default package)&apos;&#x0A;- Original element: &apos;br.Marcel.Melo.SegundoServlet.java&apos;" description="Copy compilation unit" destination="=AulaAqui/src&lt;" element1="/src&lt;br.Marcel.Melo{SegundoServlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1460071872807" units="1" version="1.0"/>
+</session>

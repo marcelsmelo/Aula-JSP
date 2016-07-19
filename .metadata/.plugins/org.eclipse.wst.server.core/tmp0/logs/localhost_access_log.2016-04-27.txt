@@ -1,0 +1,11 @@
+127.0.0.1 - - [27/Apr/2016:23:32:58 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Apr/2016:23:32:58 -0300] "GET /Filtros/ServletFiltrado HTTP/1.1" 404 1040
+127.0.0.1 - - [27/Apr/2016:23:33:43 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Apr/2016:23:33:49 -0300] "GET /Filtros/ServletFiltrado HTTP/1.1" 200 25
+127.0.0.1 - - [27/Apr/2016:23:36:28 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Apr/2016:23:36:28 -0300] "GET /Filtros/WEB-INF/classes/br/marcel/melo/FiltroAnotations.java HTTP/1.1" 404 992
+127.0.0.1 - - [27/Apr/2016:23:36:45 -0300] "GET /Filtros/ServletFiltrado HTTP/1.1" 200 25
+127.0.0.1 - - [27/Apr/2016:23:45:32 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Apr/2016:23:45:32 -0300] "GET /Filtros/ServletFiltrado2 HTTP/1.1" 200 25
+127.0.0.1 - - [27/Apr/2016:23:47:19 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [27/Apr/2016:23:47:20 -0300] "GET /Filtros/ServletFiltrado2 HTTP/1.1" 200 27

@@ -1,0 +1,5 @@
+127.0.0.1 - - [10/Jun/2016:10:17:24 -0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [10/Jun/2016:10:17:26 -0300] "GET /LoginJSP-BD/indexCrud.jsp HTTP/1.1" 200 2066
+127.0.0.1 - - [10/Jun/2016:10:17:26 -0300] "GET /LoginJSP-BD/estilos.css HTTP/1.1" 200 327
+127.0.0.1 - - [10/Jun/2016:10:19:31 -0300] "GET /LoginJSP-BD/indexCrud.jsp HTTP/1.1" 200 2334
+127.0.0.1 - - [10/Jun/2016:10:19:31 -0300] "GET /LoginJSP-BD/estilos.css HTTP/1.1" 304 -

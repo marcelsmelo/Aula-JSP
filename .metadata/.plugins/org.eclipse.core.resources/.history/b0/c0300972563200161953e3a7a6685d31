@@ -1,0 +1,35 @@
+<%@ page import="br.marcel.melo.crud.User"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<jsp:useBean id="usuarioEditar" class="br.marcel.melo.crud.User"></jsp:useBean>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Editar usuário</h1>
+	<form method="POST" action="EditarUsuarioServlet">
+		<label>
+			ID: <input type="text" name="id" disabled value=<%= usuario.getId() %>/>
+		</label>
+		<label>
+			Nome: <input type="text" name="name" required value=<%= usuario.getName() %>/>
+		</label>
+		<br />
+		<label>
+			E-mail: <input type="email" name="email" required value=<%= usuario.getCpf() %>/>
+		</label>
+		<br />
+		<label>
+			CPF: <input type="text" name="cpf" required value=<%= usuario.getCpf() %>/>
+		</label>
+		<br />
+		<input type="submit" value="Enviar"/>
+	</form>
+
+</body>
+</html>

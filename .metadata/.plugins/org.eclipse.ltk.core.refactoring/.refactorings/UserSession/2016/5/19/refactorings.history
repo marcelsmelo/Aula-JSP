@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Filtros/src/br.marcel.melo.exercicios&apos;&#x0A;- Original project: &apos;UserSession&apos;&#x0A;- Destination element: &apos;Filtros/src/br.marcel.melo.exercicios&apos;&#x0A;- Original elements:&#x0A;     br.marcel.melo.LoginOKSession.java&#x0A;     br.marcel.melo.LoginSession.java" description="Copy compilation units" destination="=Filtros/src&lt;br.marcel.melo.exercicios" element1="/src&lt;br.marcel.melo{LoginOKSession.java" element2="/src&lt;br.marcel.melo{LoginSession.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1462488560923" units="2" version="1.0"/>
+</session>
